@@ -14,6 +14,8 @@
 *.dae
 *.3ds
 *.ply
+*.cubemap
+*.zip
 # this folder can get very large
 # and it's just a pain to do git LFS with it + I'm out of the free quota
 /ArtifactDB
