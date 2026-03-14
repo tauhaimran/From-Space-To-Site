@@ -1,5 +1,68 @@
 # This .gitignore file should be placed at the root of your Unity project directory
 #
+
+# Prevent heavy assets from being committed
+*.dylib
+*.fbx
+*.obj
+*.blend
+*.gltf
+*.glb
+*.max
+*.usdz
+*.stl
+*.dae
+*.3ds
+*.ply
+# this folder can get very large
+# and it's just a pain to do git LFS with it + I'm out of the free quota
+/ArtifactDB
+ArtifactDB 
+############
+
+#because I hate errors
+/Assets/Models
+/Assets/Samples
+/Assets/Textures
+/Assets/Materials
+/Assets/Audio
+/Assets/Prefabs
+/Assets/Scenes
+/Assets/Animations
+/Assets/Fonts
+/Assets/VRTemplateAssets
+/Assets/XR
+/Assets/XRI
+#/Assets/Settings
+
+#
+#
+#
+#
+
+
+############
+# DOING THIS SO GITHUB CAN STFU - ruining our coll ahh project with stupid errors - ugh
+# Prevent heavy assets from being committed
+*.dylib
+*.fbx
+*.obj
+*.blend
+*.gltf
+*.glb
+*.max
+*.usdz
+*.stl
+*.dae
+*.3ds
+*.ply
+*.zip
+*.rar
+*.so
+*.dbg.so
+*.aar
+
+
 # Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
 #
 .utmp/
