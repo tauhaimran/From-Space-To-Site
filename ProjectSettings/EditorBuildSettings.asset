@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 0
-    path: Assets/SCENES/SampleScene.unity
+    path: Assets/SCENES/testing-scenes/SampleScene.unity
     guid: 55daccc09a3b69647bbab145b54a3ab3
   - enabled: 1
     path: Assets/SCENES/Scene1_LowOrbit.unity
@@ -15,11 +15,14 @@ EditorBuildSettings:
     path: Assets/SCENES/Scene2_SignalJourney.unity
     guid: a1830bced9d82a54cb23cf2f19d022c5
   - enabled: 1
+    path: Assets/SCENES/Scene3_mine.unity
+    guid: 4e99ba5edd6a13e44967e41762f6df28
+  - enabled: 1
     path: Assets/SCENES/Scene3_office.unity
     guid: d064467ddfe7056449926eb3c6decb14
   - enabled: 1
     path: Assets/SCENES/Scene3_school.unity
-    guid: 4e99ba5edd6a13e44967e41762f6df28
+    guid: ad313902701794f4fb69aaf704e1c668
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: bfa1182bd221b4ca89619141f66f1260, type: 2}
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: dc5a169419fa04987b057f65238cf3ba, type: 2}
